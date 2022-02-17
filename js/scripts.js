@@ -21,7 +21,7 @@ const erorrMasage = getElement('eror-masage');
 
 document.getElementById('calculate-btn').addEventListener('click',
     function () {
-        if (((isNaN(incomeInput.value)|| (foodInput.value) || (rentInput.value) || (clothInput.value)) || (incomeInput.value < 0 || foodInput.value < 0 || rentInput.value < 0 || clothInput.value < 0))) {
+        if (isNaN(incomeInput.value)||isNaN(foodInput.value)||isNaN(rentInput.value)||isNaN(clothInput.value)||incomeInput.value < 0 || foodInput.value < 0 || rentInput.value < 0 || clothInput.value < 0){
             erorrMasage.innerText = 'Please enter a positive number!!!!'
             incomeInput.value = '';
             foodInput.value = '';
