@@ -1,0 +1,22 @@
+.my-btn{
+    background-color: #3D4FF3;
+    padding: 7px 15px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.heading-color{
+    color: white;
+}
+
+.bg-color-1{
+    background-color: cadetblue;
+}
+.bg-color-2{
+    background-color: #363958;
+}
+.eror-color{
+    color: crimson;
+    font-size:larger;
+}
