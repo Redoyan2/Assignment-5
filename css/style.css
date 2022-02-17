@@ -17,6 +17,9 @@
     background-color: #363958;
 }
 .eror-color{
-    color: crimson;
+    color:white;
     font-size:larger;
+    background-color: red;
+    padding: 7px;
+    display: none;
 }
